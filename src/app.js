@@ -5,6 +5,8 @@ import * as ROUTES from './constants/routes';
 
 export default function App() {
   return (
-    <Home />
+    <Router>
+      <Home />
+    </Router>
   );
 }
